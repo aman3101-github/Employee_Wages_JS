@@ -6,7 +6,7 @@ const MAX_WORKING_DAYS = 20;
 const MAX_WORKING_HOURS = 160;  
 const FULL_TIME_WAGE = FULL_TIME_HOURS * WAGE_PER_HOUR; 
 
- // Function to determine work hours based on work type.
+ // Function to determine work hours based on work type
 function getWorkHours(workType) {
     switch (workType) {
         case 1:
